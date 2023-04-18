@@ -76,7 +76,7 @@ body{
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: 77px;
+    margin-top: 69px;
     box-shadow: 2px 1px 1px 0px #d1cbcb;
     width: 200px;
     border-radius: 25px;
@@ -271,7 +271,7 @@ body{
 {
     display: flex;
     height: 370px;
-    gap: 46px;
+    justify-content: space-between;
 }
 .third_first
 {
@@ -356,6 +356,7 @@ body{
   display: flex;
   gap: 51px;
   margin-bottom: 50px;
+  justify-content: space-between;
 }
 
 .section5 .section5_img1
