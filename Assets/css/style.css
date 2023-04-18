@@ -15,9 +15,10 @@ body{
 /* common class */
 .container
 {
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     max-width: 1940px;
+    margin: auto;
     /* border: 2px solid red; */
    
 }
@@ -102,6 +103,7 @@ body{
 .section_first
 {
     display: flex;
+    position: relative;
 }
 .section_first_left
 {
@@ -125,14 +127,14 @@ body{
 .section_first_right img
 {
     
-        width: 600px;
-        height: 600px;
-        position: absolute;
-        top: -177px;
-        rotate: 43deg;
-        right: 0;
-        border-radius: 66px;
-        z-index: -1;
+    width: 600px;
+    height: 709px;
+    position: absolute;
+    top: -318px;
+    rotate: 54deg;
+    border-radius: 66px;
+    z-index: -1;
+    right: -121px;
 
 }
 /* Button */
